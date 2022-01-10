@@ -1,0 +1,105 @@
+body {
+    width: 600px;
+    background-color: whitesmoke;
+    height: 599px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#banner {
+    position: fixed;
+    top: 0px;
+    background-color: rgb(0, 120, 200);
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    height: 60px;
+    width: 100%;
+    box-shadow: rgb(150, 150, 150) 0px 0px 4px;
+}
+#banner-inner {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+}
+#banner-inner img {
+    height: 34px;
+    margin-left: 5px;
+}
+#bannerBtns {
+    float: right;
+    margin-top: -5px;
+}
+#bannerBtns button {
+    height: 38px;
+    width: 38px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+#wrapper {
+    height: max-content;
+}
+#events-wrapper {
+    margin: 10px;
+    height: max-content;
+}
+.day {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.day-name {
+    font-size: 110%;
+}
+.day-week-number {
+    margin: auto;
+    font-weight: 600;
+}
+.day-date {
+    text-align: right;
+}
+.event {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-gap: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: rgb(150, 150, 150) 0px 0px 3px;
+    background-color: white;
+}
+.eventCol1{
+    text-align: right;
+    padding-top: 1px;
+    padding-left: 10px;
+}
+.timeStart {
+    font-weight: 600;
+}
+.timeEnd {
+    color: gray;
+    font-weight: 400;
+}
+.eventCol2{
+    padding-right: 10px;
+}
+.event hr {
+    border-top: 1px solid rgba(255, 44, 44, 0.85);
+    margin: 0px;
+    margin-top: 1px;
+    margin-bottom: -1px;
+}
+.GNFAPLFBPU {
+    height: 12px;
+    fill: #090;
+}
+#settings-wrapper {
+    margin: 10px;
+    height: max-content;
+}
+#settings-wrapper button,div,h5 {
+    margin-bottom: 5px;
+} 
+.calenderUrl {
+    display: grid;
+    grid-template-columns: auto 42px;
+    grid-gap: 5px;
+}

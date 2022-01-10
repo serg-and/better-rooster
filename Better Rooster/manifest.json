@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Better Rooster",
+    "version": "1.0",
+    "description": "Improved schedule without login, optimized for HvA and UvA schedules",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_title": "Better Rooster"
+    },
+    "host_permissions": [
+      "https://rooster.hva.nl/*",
+      "*://*/*"
+    ],
+    "icons": { "16": "rooster_white.png",
+        "48": "rooster_white.png",
+       "128": "rooster_white.png" }
+}
